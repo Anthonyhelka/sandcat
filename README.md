@@ -12,7 +12,7 @@ $ npm install sandcat -g
 # Usage
 In the terminal, run:
 ```
-$ sandcat <application_name>
+$ npx sandcat <application_name>
 ```
 Then to start your Express server, navigate to <application_name> and run:
 ```
@@ -23,7 +23,7 @@ Lastly, to start your React server, you will need to open a new terminal window 
 $ yarn start
 ```
 
-# Output
+# Example Output
 ```
 $ Sandcat will create your MERN stack application in the fetcher directory, meow!
 $ Success: Create fetcher directory
