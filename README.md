@@ -35,7 +35,7 @@ To check if React is working properly, visit [localhost:3000/](http://localhost:
 
 # Deployment
  
-Sandcat was designed to create applications that can easily be pushed to both Github and Heroku!
+Sandcat creates applications that are easily pushed to both Github and Heroku!
 
 **Github**
 
