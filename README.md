@@ -10,28 +10,34 @@ $ npm install sandcat -g
 ```
 
 # Usage
+
 In the terminal, run:
 ```
 $ npx sandcat <application_name>
 ```
-Then to start your Express server, navigate to <application_name> and run:
+
+In order to start your Express server, navigate to `<application_name>` and run:
 ```
 $ npm start
 ```
-Lastly, to start your React server, you will need to open a new terminal window and navigate to <application_name>/client and run:
+To check if Express is working properly, navigate to [localhost:5000/api/hello_world](http://localhost:5000/api/hello_world), you should see `Hello World!` displaying to the screen.
+
+In order to start your React server, you will need to open a new terminal window and navigate to `<application_name>/client` and run:
 ```
 $ npm start
 ```
+To check if React is working properly, navigate to [localhost:3000/](http://localhost:3000/), you should see the example React application provided by [create-react-app](https://www.npmjs.com/package/create-react-app).
 
 # Example Output
 ```
-$ Sandcat will create your MERN stack application in the fetcher directory, meow!
-$ Success: Create fetcher directory
+$ Sandcat will create your MERN stack application in the application_name directory, meow!
+$ Success: Create testFile directory
 $ Success: Initialize Node_Modules
 $ Success: Install Express.js
-$ Success: Create and populate server.js File
+$ Success: Create and populate server.js file
 $ Success: Initialize React Application in Client Directory
-$ Success: Update fetcher package.json file
+$ Success: Update application_name package.json file
 $ Success: Update client package.json file
-$ Sandcat has finished, navigate to the fetcher directory to see your new MERN stack application, meow!
+$ Success: Initialize Git and create .gitignore file
+$ Sandcat has finished, navigate to the application_name directory to see your new MERN stack application, meow!
 ```
