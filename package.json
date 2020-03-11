@@ -1,4 +1,14 @@
 {
   "name": "sandcat",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Removes all spaces from a string",
+  "license": "MIT",
+  "repository": "anthonyhelka/sandcat",
+  "main": "index.js",
+  "keywords": [
+    "sandcat",
+    "npm",
+    "package",
+    "anthonyhelka"
+  ]
 }
