@@ -16,11 +16,11 @@ $ npx sandcat <application_name>
 ```
 Then to start your Express server, navigate to <application_name> and run:
 ```
-$ yarn start
+$ npm start
 ```
 Lastly, to start your React server, you will need to open a new terminal window and navigate to <application_name>/client and run:
 ```
-$ yarn start
+$ npm start
 ```
 
 # Example Output
