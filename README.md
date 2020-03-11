@@ -15,18 +15,23 @@ In the terminal, run:
 ```
 $ npx sandcat <application_name>
 ```
+This will create a ready out of the box MERN stack application in the `<application_name>` directory, no configuration necessary!
 
-In order to start your Express server, navigate to `<application_name>` and run:
+# Express
+
+In order to start your Express server, navigate to the `<application_name>` directory and run:
 ```
 $ npm start
 ```
-To check if Express is working properly, navigate to [localhost:5000/api/hello_world](http://localhost:5000/api/hello_world), you should see `Hello World!` displaying to the screen.
+To check if Express is working properly, visit [localhost:5000/api/hello_world](http://localhost:5000/api/hello_world), you should see `Hello World!` displaying to the screen.
 
-In order to start your React server, you will need to open a new terminal window and navigate to `<application_name>/client` and run:
+# React 
+
+In order to start your React server, you will need to open a new terminal window and navigate to the `<application_name>/client` directory and run:
 ```
 $ npm start
 ```
-To check if React is working properly, navigate to [localhost:3000/](http://localhost:3000/), you should see the example React application provided by [create-react-app](https://www.npmjs.com/package/create-react-app).
+To check if React is working properly, visit [localhost:3000/](http://localhost:3000/), you should see the default React application provided by [create-react-app](https://www.npmjs.com/package/create-react-app).
 
 # Example Output
 ```
