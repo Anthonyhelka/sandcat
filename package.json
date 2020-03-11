@@ -1,7 +1,7 @@
 {
   "name": "sandcat",
   "version": "1.2.4",
-  "description": "Removes all spaces from a string",
+  "description": "Sandcat is a command line utility that makes it easy to create starting points for MERN stack applications.",
   "author": "Anthony Helka",
   "license": "MIT",
   "repository": "anthonyhelka/sandcat",
@@ -9,7 +9,12 @@
     "sandcat",
     "npm",
     "package",
-    "anthonyhelka"
+    "anthonyhelka",
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "MERN"
   ],
   "main": "./lib/index.js",
   "scripts": {
