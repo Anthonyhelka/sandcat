@@ -12,7 +12,7 @@ const updatePackageJSON = (directory) => {
 
     packageJSON.main = 'server.js';
     packageJSON.dependencies = newDependencies;
-    packageJSON.newScripts = newScripts;
+    packageJSON.scripts = newScripts;
 
     fs.writeFileSync(`./${directory}/package.json`, JSON.stringify(packageJSON, null, 2));
 
