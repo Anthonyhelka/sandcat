@@ -4,14 +4,21 @@
 
 Sandcat is a command line utility that makes it easy to create starting points for MERN stack applications.
 
-# Install Globally
+# Installation
+
+We highly recommend you install Sandcat globally so that you can use it anywhere. To do so, run this command below:
 ```
 $ npm install sandcat -g
 ```
 
 # Usage
 
-In the terminal, run:
+If you would like to see a list of options that Sandcat offers, run this command below:
+```
+$ npx sandcat -help
+```
+
+To create a MERN stack application, run:
 ```
 $ npx sandcat <application_name>
 ```
