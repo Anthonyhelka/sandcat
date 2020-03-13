@@ -62,3 +62,11 @@ heroku login
 heroku git:remote -a application_name
 git push heroku master
 ```
+
+# Example Project
+
+Below are a few links to 'sandcat-test', an example project generated entirely by Sandcat:
+
+[Github Repository](https://github.com/Anthonyhelka/sandcat-test)
+
+[Heroku Application](https://sandcat-test.herokuapp.com/)
