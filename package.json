@@ -1,6 +1,6 @@
 {
   "name": "sandcat",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Sandcat is a command line utility that makes it easy to create starting points for MERN stack applications.",
   "author": "Anthony Helka",
   "license": "MIT",
