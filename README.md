@@ -24,6 +24,17 @@ $ npx sandcat <application_name>
 ```
 This will create a ready out of the box MERN stack application in the `<application_name>` directory, no configuration necessary!
 
+# MongoDB
+
+To properly set up your MongoDB database, you will need to create an account on the [official MongoDB website](https://account.mongodb.com/account/login).
+
+Once you are signed up with MongoDB, create a project and a cluster. You will then need to connect to the cluster and paste the URI code that MongoDB gives you into the default.json file found in the config directory. The file should look like this:
+```
+{
+  "mongoURI": "mongodb+srv://username:<password>@gymkeeper-z5eot.mongodb.net/test?retryWrites=true&w=majority"
+}
+```
+
 # Express
 
 In order to start your Express server, navigate to the `<application_name>` directory and run:
