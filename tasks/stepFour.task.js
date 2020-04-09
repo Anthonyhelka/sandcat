@@ -3,7 +3,7 @@ const path = require('path');
 const ora = require('ora');
 
 const importServerJS = (directory) => {
-  const spinner = ora('Importing server.js file').start();
+  const spinner = ora('Importing server.js file and configuring MongoDB directory').start();
   return new Promise((resolve, reject) => {
     fs.copySync(path.resolve(__dirname, '../templates/express-js'), `./${directory}`);
     spinner.succeed()
