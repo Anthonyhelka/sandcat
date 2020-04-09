@@ -7,7 +7,7 @@ const updatePackageJSON = (directory) => {
   return new Promise((resolve, reject) => {
     const packageJSON = fs.readJsonSync(`${directory}/package.json`);
 
-    const newDependencies = { "express": "^4.17.1" };
+    const newDependencies = { "express": "^4.17.1", "config": "^3.3.0", "mongoose": "^5.9.5" };
     const newScripts = { "start": "node server.js", "heroku-postbuild": "cd client && npm install && npm run build", "test": "echo \"Error: no test specified\" && exit 1" };
 
     packageJSON.main = 'server.js';
