@@ -17,13 +17,15 @@ const installPackages = require('../tasks/stepSeven.task.js');
 const createProject = async () => {
   try {
     console.log(`Sandcat will create your MERN stack application in the ${directory} directory, meow!`.bold.yellow);
-    const stepOne = await createRootDirectory(directory);
-    const stepTwo = await npmInitialize(directory);
-    const stepThree = await updatePackageJSON(directory);
-    const stepFour = await importServerJS(directory);
-    const stepFive = await importReactJS(directory);
-    const stepSix = await gitInitialize(directory);
-    const stepSeven = await installPackages(directory);
+    await createRootDirectory(directory);
+    await npmInitialize(directory);
+    await Promise.all([
+      updatePackageJSON(directory),
+      importServerJS(directory),
+      importReactJS(directory),
+      gitInitialize(directory),
+    ]);
+    await installPackages(directory);
     console.log(`Sandcat has finished creating your MERN stack application, navigate to the ${directory} directory to check it out, meow!`.bold.yellow);
   } catch(error) {
     console.log(`${error}`.bold.red);
